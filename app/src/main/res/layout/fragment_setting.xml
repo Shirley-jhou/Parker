@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/button_normal"
+            android:textSize="18sp"
+            android:textColor="#008489"
+            android:text="常見問題" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/button_normal"
+            android:textSize="18sp"
+            android:textColor="#008489"
+            android:layout_below="@+id/button3"
+            android:text="聯絡我們" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/button_normal"
+            android:textSize="18sp"
+            android:textColor="#008489"
+            android:layout_below="@+id/button4"
+            android:text="使用規定" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/location"
+
+            android:icon="@drawable/loaction"
+            android:title="尋找停車格" />
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/sun"
+            android:title="最新消息" />
+
+        <item
+            android:id="@+id/record"
+            android:icon="@drawable/record"
+            android:title="停車紀錄" />
+
+        <item
+            android:id="@+id/friend"
+            android:icon="@drawable/friend"
+            android:title="邀請朋友" />
+        <item
+            android:id="@+id/set"
+            android:icon="@drawable/setting"
+            android:title="設定" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/setting"
+            android:title="登出" />
+    </group>
+
+</menu>
